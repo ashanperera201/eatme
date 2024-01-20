@@ -1,0 +1,367 @@
+.search_headder  {
+    display: none;
+    margin: 0 auto
+}
+
+.search_body {
+    position: relative
+}
+
+.search_flex {
+    display: flex;
+    align-items: center
+}
+
+.search_span {
+    position: absolute;
+    top: 14px;
+    left: 14px
+}
+.search_span_svg {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: text-bottom
+}
+
+.bg_color_list_item{
+    color: rgb(46, 51, 51);
+}
+
+.bg_color_items {
+    color: rgb(88, 92, 92);
+}
+
+.block {
+    display: block;
+}
+.blocks {
+    width: 100%; 
+    height: 100%; 
+    transform: translate3d(0px, 0px, 0px); 
+    content-visibility: visible;
+}
+
+.bg_color_low {
+    color: rgb(77, 124, 27);
+}
+
+.bg_color_secondry{
+    color: rgb(88, 92, 92);
+}
+
+.bg_color_chrome {
+    color: rgb(171, 173, 173)
+}
+
+.bg_color_ash{
+    color: rgb(46, 51, 51);
+}
+
+.bg_img{
+    background-image: url('https://rs-menus-api.roocdn.com/images/5dab5089-c269-4bbc-afc3-2c711b0970a9/image.jpeg?width=580&amp;height=640&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+
+.bg_span {
+    color: rgb(88, 92, 92);
+}
+
+.span_style_1 {
+    -webkit-line-clamp: 2;
+}
+
+.span_style_2 {
+    color: rgb(77, 124, 27);
+}
+
+.button_styles  {
+    top: 50%; 
+    width: 44px; 
+    height: 44px; 
+    inset-inline: -16px 0px;
+}
+.button_styles_2 {
+    top: 50%; 
+    width: 44px; 
+    height: 44px; 
+    inset-inline-start: initial; 
+    inset-inline-end: -16px;
+}
+
+.ul_styles_1 {
+    grid-template-rows: auto; transform: translateX(0px);
+}
+
+.bg_image_1 {
+    background-image: url("https://rs-menus-api.roocdn.com/images/157ed1e5-9c96-4b3d-a788-768c9f65993e/image.jpeg?width=246&amp;height=246&amp;auto=webp&amp;format=jpg&amp;fit=crop");
+}
+
+.bg_image_2 {
+    background-image: url("https://rs-menus-api.roocdn.com/images/a19b0302-e9c1-409c-a206-c786f64e825c/image.jpeg?width=246&amp;height=246&amp;auto=webp&amp;format=jpg&amp;fit=crop");
+}
+
+.bg_image_3 {
+    background-image: url("https://rs-menus-api.roocdn.com/images/a28d5f70-6539-4b92-92f2-f00db7328c9f/image.jpeg?width=246&amp;height=246&amp;auto=webp&amp;format=jpg&amp;fit=crop");
+}
+
+.bg_image_4 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/0c9a17ae-d6d7-4b39-9322-8d1f94374c79/image.jpeg?width=246&amp;height=246&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_5 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/e46d0de2-e053-4b63-8f88-556f2a1c0601/image.jpeg?width=246&amp;height=246&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_6 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/3b0b5645-a883-4dd7-bf9c-859c4db0ec20/image.jpeg?width=246&amp;height=246&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_7 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/0bd14802-7327-4116-a930-faa7fcaa894f/image.jpeg?width=246&amp;height=246&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_8 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/d964c809-1ffe-4c17-9b3d-2281dc20d107/image.jpeg?width=246&amp;height=246&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_9 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/be4ada38-2c93-4d6a-ab96-51e5b6cd19e8/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_10 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/049c1c8f-8da6-4d5c-9a74-7385b9ef7118/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_11 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/8aee6be5-e290-4f16-bb03-75e80b35c672/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_12 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/30520c8d-8f85-4c27-a6b5-f2348ddf173c/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_13 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/0c9a17ae-d6d7-4b39-9322-8d1f94374c79/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_14 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/26cb17f3-7506-4df3-9410-e83c6aa0443f/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_15 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/80a99040-1cd9-4147-b520-3aa48520700a/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_16 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/875147fd-02a0-400f-b385-de435498a3fe/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_17 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/0bd14802-7327-4116-a930-faa7fcaa894f/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_18 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/b5e56e3d-5560-4110-9f08-97b072d5219f/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_19 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/d964c809-1ffe-4c17-9b3d-2281dc20d107/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_20 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/3b0b5645-a883-4dd7-bf9c-859c4db0ec20/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_21 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/a19b0302-e9c1-409c-a206-c786f64e825c/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_22 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/157ed1e5-9c96-4b3d-a788-768c9f65993e/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_23 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/38572259-158c-4312-a19e-3786437acc6f/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_24 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/a28d5f70-6539-4b92-92f2-f00db7328c9f/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_25 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/e46d0de2-e053-4b63-8f88-556f2a1c0601/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_26 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/c5ac9234-6b03-4ae1-b481-7c00388822a7/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_27 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/2c0234b3-4340-41e9-baff-d8bdb9866e63/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_28 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/807f0609-dbed-42ac-be0a-0c6a339ea367/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_29 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/59636057-51ed-46ec-be2f-6c0f06a4d9e4/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_30 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/ce0a411f-056f-43a9-91e9-0cff3918581a/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_31 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/2ca20924-e6ec-44fb-ad40-5da31c4af9e4/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_32 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/71d24f74-fbf4-4b71-8272-b3bfe1cd154d/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_33 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/62d35855-3af3-4fa2-90f8-17834ede36e1/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_34{
+    background-image: url('https://rs-menus-api.roocdn.com/images/a853e5ab-6da6-450c-a15b-bb2ba4f97c54/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_35 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/72e36516-b4c9-4fbf-9171-938457450087/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_36 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/8d627182-0978-459d-a5ca-eeed7973fa64/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_37 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/d0c423d8-5fdc-491d-a9ec-ef76f9600956/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_38 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/26132286-640e-4e9f-8395-41d65e4e6700/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_39 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/81b01e75-5c1f-4c4e-ad64-4049d71752e4/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_40 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/a6e7f91a-ba5f-4cf0-bb5b-545a35909f68/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_41 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/ce35e8a9-f13d-4b1a-96b5-dc61d75b9f8f/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_42 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/f8ea63d0-6652-46fc-8dce-1f12a6b972db/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_43{
+    background-image: url('https://rs-menus-api.roocdn.com/images/61006812-71b4-4119-b7a1-54531fef50bf/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_44{
+    background-image: url('https://rs-menus-api.roocdn.com/images/5697309f-5b56-4bfb-a756-c079ef58c2cf/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_45 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/5697309f-5b56-4bfb-a756-c079ef58c2cf/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_46 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/8157d95a-5cf1-4d21-b1eb-5a0cb0c55c80/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_47 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/77152c5f-96cd-4c45-bc0c-5adadef7df80/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_48 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/01815e63-3f8c-4cf9-85b2-0aed7c7501ee/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_49{
+    background-image: url('https://rs-menus-api.roocdn.com/images/8dc0b82b-2b9e-457a-b5db-e5575eaba00f/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_50 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/f6b59093-9628-4ef7-a748-c62fd89b213e/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_51 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/2e3ab8a1-d594-4081-a8a8-dfc382dbfc4a/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_52{
+    background-image: url('https://rs-menus-api.roocdn.com/images/e319b1e6-162a-40cc-b9fe-a882d6e485fc/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_53 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/ae0b466f-4f8c-4f08-95d9-e6b711bc7084/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_54 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/bcad9db3-f6b9-4e11-b801-95fdfccd5d16/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_55 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/61ad9d15-0b34-4c48-9080-1033b8832df2/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_56 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/97795521-7f92-4002-b024-a30edffd1bc8/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_57 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/c4da9d20-95eb-43f6-8f90-89d0fb1e7737/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_58 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/fdaca556-b1c3-4151-a5b4-7dcb93e4ec94/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_59 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/9281efd6-1521-4120-9912-48fb3ae606a8/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_60 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/531005c4-edae-44b0-9fb1-8f0b9ef5cd60/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_61 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/5ab1b9ed-239b-4580-8f83-65f2993a83de/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_62 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/b82b6b7a-a707-45b6-925f-2126da8154ac/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_63 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/bf9a341c-ab6b-4b66-a1fb-78af180a16d3/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_64 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/83ed7fa0-0300-42de-8b31-ee94ec849e0f/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_65 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/2be4e3b5-e2cc-4574-86e7-c7fbd127c7d6/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_66 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/fa2c0778-54a5-4ed3-904d-4e96d839e524/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_67 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/5293bd67-53dd-49ec-a7ac-7914c6e03bac/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_68 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/2456f5e6-22aa-40bd-a8e4-e11a6716212e/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_69 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/84920bd1-b888-4470-9926-cb1ff272ebb7/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_70 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/6e4d99c6-00df-4817-ac12-3a4a7b70dc2d/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_71 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/14171452-65be-445d-8261-1d128611f093/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_72 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/8994cf42-dbde-4dc6-9164-bd0ddd4730f2/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_73 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/ab3d55fd-463f-4ae9-9503-6c844ce41e52/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_74 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/f6c2b5ae-b1a4-4151-aa9c-3c313d69c6ff/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_75 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/8b6a220e-677a-4f75-ad65-599665163c06/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_76 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/896a82da-8dd7-4d65-b373-546698ac309e/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_77 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/36f87744-afe3-4b1e-a739-cb8d214976b8/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_78 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/0f2cb9c1-53b5-4614-9d35-606d3bffca57/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_79{
+    background-image: url('https://rs-menus-api.roocdn.com/images/dabec76d-c182-4a76-9dc0-8b30c5b2ef51/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_80 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/c910f947-c2e9-41a1-a14e-c0a11aa157b1/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_81 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/29a63ac8-2b16-4f96-a906-87bccc406d71/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_82 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/3ebd1422-5f4d-444e-9e70-63cb12dec571/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_83{
+    background-image: url('https://rs-menus-api.roocdn.com/images/64b02d7e-ec68-4f91-8348-ccb7e8a72d97/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_84 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/5daeea76-b89f-4556-a94a-0ebe1f7bc020/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_85 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/6d999eda-d748-4a26-9505-14c87407c84a/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_86 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/5daeea76-b89f-4556-a94a-0ebe1f7bc020/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_87 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/fa76b4c3-1c0a-4eb4-a3f5-64beadef5b74/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_88 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/e4aaa2cb-6f47-4c98-90a0-d9c9ee007108/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}
+.bg_image_89 {
+    background-image: url('https://rs-menus-api.roocdn.com/images/e4aaa2cb-6f47-4c98-90a0-d9c9ee007108/image.jpeg?width=196&amp;height=196&amp;auto=webp&amp;format=jpg&amp;fit=crop');
+}

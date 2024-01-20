@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "categoryName": {
+            "type": "string"
+        },
+        "categoryDescription": {
+            "type": "string"
+        },
+        "dishItems": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "categoryName",
+        "categoryDescription"
+    ]
+}

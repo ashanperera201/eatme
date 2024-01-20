@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "storeName": {
+            "type": "string"
+        },
+        "storeDescription": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string"
+        },
+        "openingTime": {
+            "type": "string"
+        },
+        "closingTime": {
+            "type": "string"
+        },
+        "reviews": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "storeName",
+        "address",
+        "openingTime",
+        "closingTime",
+        "reviews"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "orderItem": {
+            "type": "string"
+        },
+        "quantity": {
+            "type": "number"
+        },
+        "totalPrice": {
+            "type": "number"
+        },
+        "timeStamp": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "orderItem",
+        "quantity",
+        "totalPrice"
+    ]
+}
